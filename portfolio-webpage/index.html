@@ -8,34 +8,40 @@ Most recent revision: 2023-05-01
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Portfolio</title>
+    <title>Marci Kitzmiller's Portfolio</title>
   </head>
 
   <body>
     <main>
+      <!-- The main element contains all blocks on the page -->
       <header>
+        <!-- The header element contains only the main title at this point. -->
         <h1>Portfolio for Marci Ktzmiller</h1>
         <hr />
       </header>
 
       <nav>
+        <!-- The nav element will include navigation buttons or links -->
         <hr>
-        <p>
-          <a href="projects.html">Projects</a>
-          <a href="contact.html">Contact Me</a>
-          <a href="testimonials.html">Testimonials</a>
-        </p>
-        <hr />
+        <p><a href="projects.html">Projects</a></p>
+        <p><a href="contact.html">Contact Me</a></p>
+        <p><a href="testimonials.html">Testimonials</a></p>
+        <hr>
       </nav>
 
       <section>
         <article id="aboutMe">
           <h2><em>About Me</em></h2>
+          <img 
+            alt="Marci's photo" 
+            src="src/marci-kitzmiller-350px.jpg" 
+            width="250"
+          />
           <p>
             After several years working in HR, I decided to pursue my passion
             for coding and made the switch to software engineering. I've since
             developed a strong skill set in several programming languages,
-            including Ruby, JavaScript, and Java, which I use to design and
+            including <strong>Ruby, JavaScript, and Java</strong>, which I use to design and
             implement effective and user-friendly software solutions. I'm
             passionate about staying up-to-date with the latest trends and
             technologies in the industry, and I'm always seeking new challenges
@@ -43,41 +49,43 @@ Most recent revision: 2023-05-01
           </p>
           <p>
             Thank you for taking the time to check out my portfolio, and please
-            feel free to contact me with any questions or opportunities!
+            <strong>feel free to contact me</strong> with any questions or opportunities!
           </p>
         </article>
 
         <article id="pastExperiences">
+          <!-- This is the second chunk inside the section element. -->
           <h2><em>Past Experiences</em></h2>
-          <p>
-            As a Junior Developer at Pensano Devs, I had the opportunity to work
-            on a variety of challenging and exciting projects. I gained valuable
-            experience in Ruby and JavaScript, and had the chance to collaborate
-            closely with senior developers to contribute to the development of
-            complex software solutions. One of my most memorable projects was a
-            web application that I worked on with a team of other developers - I
-            was responsible for designing and implementing several key features,
-            and I learned a lot from the feedback and guidance of my colleagues.
-            Working at Pensano Devs helped me develop my technical skills and
-            taught me the importance of collaboration and communication in a
-            fast-paced, dynamic work environment.
-          </p>
-          <p>
-            Before that, I worked 2 years as an HR Manager at HR Global. I was
-            responsible for overseeing all aspects of HR operations, from
-            recruitment and onboarding to performance management and employee
-            relations. I led a team of HR professionals and worked closely with
-            leadership to align HR strategy with the broader goals of the
-            organization. One of my proudest achievements in this role was
-            implementing a new employee development program that helped to
-            improve retention and engagement across the organization. I also
-            enjoyed working on diversity and inclusion initiatives, and was
-            pleased to see the positive impact they had on employee morale and
-            overall company culture. Working in HR taught me the importance of
-            balancing the needs of individuals with the needs of the
-            organization, and gave me a deep appreciation for the human side of
-            the workplace.
-          </p>
+          <img
+            alt="Pensano logo"
+            src="src/pensano.png"
+            width="250"
+          />
+          <table>
+            <caption>
+              Employment History
+            </caption>
+            <tr>
+              <th>Years of Employment</th>
+              <th>Title</th>
+              <th>Company</th>
+            </tr>
+            <tr>
+              <td>2018-Present</td>
+              <td>Apprentice</td>
+              <td>The Software Guild</td>
+            </tr>
+            <tr>
+              <td>2012-2018</td>
+              <td>Clerk</td>
+              <td>United Shipping Services</td>
+            </tr>
+            <tr>
+              <td>2007-2012</td>
+              <td>Student</td>
+              <td>State University</td>
+            </tr>
+          </table>
         </article>
 
         <article id="hobbies">
