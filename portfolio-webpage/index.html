@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <!--
-Name: Marci Ktzmiller
+Name: Ju Nocchi
 Date Created: 2023-04-26
 Most recent revision: 2023-05-01
 -->
 <!-- We need to add styling -->
 <html lang="en">
   <head>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
     <meta charset="UTF-8" />
     <title>Marci Kitzmiller's Portfolio</title>
+    <style>
+      caption {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-bottom: 8px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #0d1f2d;
+        border-collapse: collapse;
+        padding: 5px 10px;
+      }
+      table {
+        width: 90%;
+        margin: auto;
+      }
+      tr {
+        height: 30px;
+      }
+      th {
+        background-color: #546a7b;
+        color: #f2eded;
+      }
+      tr:nth-child(odd) {
+        background-color: #e4c3ad;
+      }
+    </style>
   </head>
 
   <body>
@@ -17,84 +46,83 @@ Most recent revision: 2023-05-01
       <header>
         <!-- The header element contains only the main title at this point. -->
         <h1>Portfolio for Marci Ktzmiller</h1>
-        <hr />
       </header>
 
       <nav>
         <!-- The nav element will include navigation buttons or links -->
-        <hr>
         <p><a href="projects.html">Projects</a></p>
         <p><a href="contact.html">Contact Me</a></p>
         <p><a href="testimonials.html">Testimonials</a></p>
-        <hr>
       </nav>
 
       <section>
         <article id="aboutMe">
           <h2><em>About Me</em></h2>
-          <img 
-            alt="Marci's photo" 
-            src="src/marci-kitzmiller-350px.jpg" 
+          <img
+            alt="Marci's photo"
+            src="src/marci-kitzmiller-350px.jpg"
             width="250"
           />
           <p>
             After several years working in HR, I decided to pursue my passion
             for coding and made the switch to software engineering. I've since
             developed a strong skill set in several programming languages,
-            including <strong>Ruby, JavaScript, and Java</strong>, which I use to design and
-            implement effective and user-friendly software solutions. I'm
-            passionate about staying up-to-date with the latest trends and
-            technologies in the industry, and I'm always seeking new challenges
-            to help me grow and improve as a software engineer.
+            including <strong>Ruby, JavaScript, and Java</strong>, which I use
+            to design and implement effective and user-friendly software
+            solutions. I'm passionate about staying up-to-date with the latest
+            trends and technologies in the industry, and I'm always seeking new
+            challenges to help me grow and improve as a software engineer.
           </p>
           <p>
             Thank you for taking the time to check out my portfolio, and please
-            <strong>feel free to contact me</strong> with any questions or opportunities!
+            <strong>feel free to contact me</strong> with any questions or
+            opportunities!
           </p>
         </article>
 
         <article id="pastExperiences">
           <!-- This is the second chunk inside the section element. -->
           <h2><em>Past Experiences</em></h2>
-          <img
-            alt="Pensano logo"
-            src="src/pensano.png"
-            width="250"
-          />
+          <img alt="Pensano logo" src="src/pensano.png" width="250" />
           <table>
             <caption>
               Employment History
             </caption>
-            <tr>
-              <th>Years of Employment</th>
-              <th>Title</th>
-              <th>Company</th>
-            </tr>
-            <tr>
-              <td>2018-Present</td>
-              <td>Apprentice</td>
-              <td>Pensano Developers</td>
-            </tr>
-            <tr>
-              <td>2012-2018</td>
-              <td>Clerk</td>
-              <td>United Shipping Services</td>
-            </tr>
-            <tr>
-              <td>2007-2012</td>
-              <td>Student</td>
-              <td>State University</td>
-            </tr>
+            <thead>
+              <tr>
+                <th>Years of Employment</th>
+                <th>Title</th>
+                <th>Company</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2018-Present</td>
+                <td>Apprentice</td>
+                <td>Pensano Developers</td>
+              </tr>
+              <tr>
+                <td>2012-2018</td>
+                <td>Clerk</td>
+                <td>United Shipping Services</td>
+              </tr>
+              <tr>
+                <td>2007-2012</td>
+                <td>Student</td>
+                <td>State University</td>
+              </tr>
+            </tbody>
           </table>
         </article>
 
         <article id="hobbies">
+          <!-- This is the third chunk inside the section element. -->
           <h2><em>Hobbies</em></h2>
           <img
             alt="Age of Empires poster"
             src="src/age-of-empires.jpg"
             width="250"
-          />  
+          />
           <ul>
             <li>Authors</li>
             <ol>
@@ -127,7 +155,7 @@ Most recent revision: 2023-05-01
       </section>
 
       <footer>
-        <hr />
+        <!-- The footer is a block at the bottom of the page. -->
         <p>&copy; 2020 Marci Kitzmiller. All rights reserved.</p>
       </footer>
     </main>

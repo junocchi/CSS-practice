@@ -1,0 +1,29 @@
+/*  
+Name: Ju Nocchi
+Date Created: 2023-05-01
+Most recent revision: 2023-05-01
+*/
+
+body {
+  background-color: #fef9ff;
+  font-family: arial, helvetica, sans-serif;
+  color: #0d1f2d
+}
+
+header, footer {
+  background-color: #5b7d87;
+  color: #fef9ff;
+  height: 100px;
+  text-align: center;
+  padding: 30px 10px 20px 10px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+nav {
+  border-top: 3px dashed #546a7b;
+  border-bottom: 3px dashed #546a7b;
+  margin-top: 4px;
+}
