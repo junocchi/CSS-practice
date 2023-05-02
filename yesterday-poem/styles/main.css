@@ -1,12 +1,4 @@
 
-/* header {
-  background-color: #5b7d87;
-  color: #fef9ff;
-  height: 100px;
-  text-align: center;
-  padding: 30px 10px 20px 10px;
-} */
-
 h2 {
   font-size: 16px;
   font-family: Arial;
@@ -14,10 +6,42 @@ h2 {
   color: blue;
 }
 
-#content {
-  height: 280;
-  width: 600;
+section {
+  height: 280px;
+  width: 600px;
   border: 2px solid blue;
   padding: 5px;
   background-color: #F0F0F0;
+}
+
+#yellow {
+  background-color: yellow;
+  float: left;
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+#orange {
+  background-color: orange;
+  position: absolute;
+  left: 110px;
+  top: 200px;
+  width: 200px;
+  padding: 10px;
+}
+
+#orange-red {
+  background-color: rgb(255, 80, 0);
+  color: white;
+  float: right;
+  width: 200px;
+  padding: 10px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-bottom: 0;
 }
