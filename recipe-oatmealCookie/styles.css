@@ -5,6 +5,16 @@
   flex-grow: 1;
   flex-basis: 70%;
 }
+
+.ingredients {
+  flex-grow: 1;
+  flex-basis: 45%;
+}
+
+.directions {
+  flex-grow: 1;
+  flex-basis: 45%;
+}
 /* Given CSS rules below */
 body {
   margin: 0;
@@ -62,6 +72,13 @@ header {
   width: 210px;
 }
 
+.summary > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+
 .related-content {
   margin-left: 100px;
+  flex-grow: 1;
+  flex-basis: 20%;
 }
